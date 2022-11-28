@@ -2,7 +2,9 @@
 
 Search and list courses on Coursera by category. 
 
-Uses BeautifulSoup(https://beautiful-soup-4.readthedocs.io/en/latest/) to parse the Coursera category pages and lists the courses. Then, downloads a csv file that contains course name, description, instructor, # of enrolled, and course rating information. 
+Uses BeautifulSoup(https://beautiful-soup-4.readthedocs.io/en/latest/) to parse the Coursera category pages and lists the courses.
+
+Then, creates a csv file that contains course name, description, instructor, # of enrolled, and course rating information. 
 
 Needs Flask and BeautifulSoup to run. All the required libraries listed in "requirements.txt". 
 
@@ -22,3 +24,6 @@ Needs Flask and BeautifulSoup to run. All the required libraries listed in "requ
 <img width="640" alt="image" src="https://user-images.githubusercontent.com/32716552/204322080-fc0f30d1-fbca-4ee4-bca5-4dc4e263b2fe.png">
 
 
+4 - Search by any listed category on the right. 
+
+5 - Wait around 30 seconds, app will try to download the generated CSV. 
