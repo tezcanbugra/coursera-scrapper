@@ -6,7 +6,7 @@ Uses BeautifulSoup(https://beautiful-soup-4.readthedocs.io/en/latest/) to parse 
 
 Needs Flask and BeautifulSoup to run. All the required libraries listed in "requirements.txt". 
 
-##How to run: 
+## How to run: 
 
 1 - Install requirements. 
 
